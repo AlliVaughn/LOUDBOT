@@ -8,7 +8,7 @@ function ISLOUD(MSG)
     return MSG !== MSG.toLowerCase() && MSG === MSG.toUpperCase();
 }
 
-var STARTERFILE = __dirname + '/BobRoss';
+var STARTERFILE = __dirname + '/STARTERS';
 var STARTERS = FS.readFileSync(STARTERFILE, 'UTF8');
 STARTERS = STARTERS.trim().split(/\n/);
 
